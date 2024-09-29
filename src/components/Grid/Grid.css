@@ -1,0 +1,25 @@
+.grid-container {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+}
+
+.grid-auto {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.grid-one-col {
+    grid-template-columns: 1fr;
+}
+
+.grid-item {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.grid-item-full {
+    grid-column-start: 0;
+    grid-column-end: 5;
+}

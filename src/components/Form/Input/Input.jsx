@@ -1,6 +1,6 @@
 import './Input.css'
 
-const Input = (label, type = 'text', ...props) => {
+const Input = ({label, type = 'text', ...props}) => {
     return (
         <div className="input-group">
             {label && <label>{label}</label>}
